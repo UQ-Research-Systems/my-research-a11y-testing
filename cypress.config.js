@@ -7,5 +7,6 @@ module.exports = defineConfig({
     },
   },
   chromeWebSecurity: false,
-  video: false
+  video: false,
+  projectId: "o7oww2"
 });

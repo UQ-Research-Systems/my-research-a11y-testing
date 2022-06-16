@@ -9,7 +9,9 @@ In order to allow the testing platform to access the product to test, we need to
 
 This is currently stored in `/credentials.js' as a named import.
 
-So, in order for the tests to be able to login to My Research successfully and run - first create `credentials.js` in the root of this repository, and add the following code, replacing the user/pass/site combination with valid entries.:
+So, in order for the tests to be able to login to My Research successfully and run - first create `credentials.js` in the root of this repository, and add the following code, replacing the user/pass/site combination with valid entries.
+
+The credentials for this user should be a normal user (not admin).
 
 ```
 IMPORTANT - DO NOT COMMIT CREDENTIALS TO THE GITHUB REPO
@@ -35,6 +37,11 @@ The tests will run without a browser being spawned and will simply return a pass
 ##### (will just run the tests while presenting the run in a browser window to review the process as it happens - will provide a pass or fail (if any tests fail))
 1. Run `npm install`
 2. Run `npm run cypress:watch`
+
+## How to record
+##### (will just run the tests and record a result in the Cypress dashbord (https://dashboard.cypress.io/projects/o7oww2))
+1. Run `npm install`
+2. Run `npm run cypress:record`
 
 ## How to interact
 ##### (Will open the Cypress interface to watch the rests run, and debug any failures)
