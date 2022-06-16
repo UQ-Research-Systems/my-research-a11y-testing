@@ -1,0 +1,35 @@
+{
+  "name": "my-research-testing",
+  "version": "1.0.0",
+  "description": "A standalone Cypress instance to automate tests of the function and accessibility of the My Research system.",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:test": "cypress run --headless",
+    "cypress:watch": "cypress run --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UQ-Research-Systems/my-research-testing.git"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "wcag",
+    "accessibility",
+    "usability",
+    "ux"
+  ],
+  "author": "Ky Lane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UQ-Research-Systems/my-research-testing/issues"
+  },
+  "homepage": "https://github.com/UQ-Research-Systems/my-research-testing#readme",
+  "devDependencies": {
+    "axe-core": "^4.4.2",
+    "cypress": "^10.1.0",
+    "cypress-axe": "^0.14.0"
+  }
+}
