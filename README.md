@@ -1,4 +1,5 @@
 # My Research - Automated a11y testing
+## NOTE: This project is still in progress pending an imminent upgrade to the MyResearch system to address a number of a11y issues.
 A standalone Cypress instance to automate tests of the function and accessibility of the My Research system.
 
 ## Reason for this repo
